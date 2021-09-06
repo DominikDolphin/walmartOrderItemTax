@@ -1,0 +1,9 @@
+{
+    "name": "walmart",
+    "version": "1.0",
+    "manifest_version": 2,
+    "content_scripts": [{
+        "matches": ["https://www.walmart.ca/my-account/order-history/*"],
+        "js": ["content.js"]
+    }]
+}
